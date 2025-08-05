@@ -1,0 +1,13 @@
+entrada = input("você quer [entrar ou sair?]")
+entrada = entrada.lower()
+
+
+if entrada == "entrar":
+    print ( "Seja bem vindo, Entrou no sistema ")
+
+elif entrada == "sair":
+    
+    print (" Você saiu do sistema...")
+
+else:
+    print ("Você não digitou nem entrar nem sair ")
